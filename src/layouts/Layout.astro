@@ -1,0 +1,135 @@
+---
+import "@fontsource/inter";
+import "@fontsource/inter/500.css";
+import "@fontsource/inter/600.css";
+import "@fontsource/inter/700.css";
+import "@fontsource/inter/800.css";
+import "@fontsource/inter/900.css";
+import "@fontsource/noto-sans-tc";
+import "@fontsource/noto-sans-tc/100.css";
+import "@fontsource/noto-sans-tc/300.css";
+import "@fontsource/noto-sans-tc/400.css";
+import "@fontsource/noto-sans-tc/500.css";
+import "@fontsource/noto-sans-tc/700.css";
+import "@fontsource/noto-sans-tc/900.css";
+
+export interface Props {
+  title: string;
+}
+
+const { title } = Astro.props;
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Google tag (gtag.js) -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=AW-16621298001"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "AW-16621298001");
+    </script>
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link
+      rel="icon"
+      type="image/png"
+      href="https://scc.nthu.site/Summer_Camp_2026/ICON.PNG"
+    />
+    <meta name="generator" content={Astro.generator} />
+    <meta
+      name="description"
+      content="Dark themed website template built on AstroJS, designed for technological startup business."
+    />
+    <title>{title}</title>
+    <!-- HTML Meta Tags -->
+
+    <meta
+      name="description"
+      content="透過真實操作超級電腦和實際應用，你將學習到平行程式設計和效能分析經驗。課程涵蓋超過 20 小時的專業教學課程、手把手實操練習和具挑戰樂趣的團隊黑客松競賽，旨在培養學員認識與將高速運算知識應用在 AI 的能力！"
+    />
+
+    <!-- Facebook Meta Tags -->
+    <meta property="og:url" content="https://scc.nthu.site/Summer_Camp_2026/" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="2026 HPC x AI Summer Camp " />
+    <meta
+      property="og:description"
+      content="透過真實操作超級電腦和實際應用，你將學習到平行程式設計和效能分析經驗。課程涵蓋超過 20 小時的專業教學課程、手把手實操練習和具挑戰樂趣的團隊黑客松競賽，旨在培養學員認識與將高速運算知識應用在 AI 的能力！"
+    />
+    <meta
+      property="og:image"
+      content="https://scc.nthu.site/Summer_Camp_2026/og_image.png"
+    />
+    <meta property="fb:app_id" content="1039226590793242" />
+
+    <!-- Twitter Meta Tags -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta property="twitter:domain" content="scc.nthu.site" />
+    <meta
+      property="twitter:url"
+      content="https://scc.nthu.site/Summer_Camp_2026/"
+    />
+    <meta name="twitter:title" content="2026 HPC x AI Summer Camp " />
+    <meta
+      name="twitter:description"
+      content="透過真實操作超級電腦和實際應用，你將學習到平行程式設計和效能分析經驗。課程涵蓋超過 20 小時的專業教學課程、手把手實操練習和具挑戰樂趣的團隊黑客松競賽，旨在培養學員認識與將高速運算知識應用在 AI 的能力！"
+    />
+    <meta
+      name="twitter:image"
+      content="https://scc.nthu.site/Summer_Camp_2026/og_image.png"
+    />
+
+    <!-- Hotjar Tracking Code for https://scc.nthu.site/Summer_Camp_2026/
+    <script>
+      (function (h, o, t, j, a, r) {
+        h.hj =
+          h.hj ||
+          function () {
+            (h.hj.q = h.hj.q || []).push(arguments);
+          };
+        h._hjSettings = { hjid: 3556890, hjsv: 6 };
+        a = o.getElementsByTagName("head")[0];
+        r = o.createElement("script");
+        r.async = 1;
+        r.src = t + h._hjSettings.hjid + j + h._hjSettings.hjsv;
+        a.appendChild(r);
+      })(window, document, "https://static.hotjar.com/c/hotjar-", ".js?sv=");
+    </script> -->
+    <!-- clarity.microsoft.com -->
+    <script type="text/javascript">
+      (function (c, l, a, r, i, t, y) {
+        c[a] =
+          c[a] ||
+          function () {
+            (c[a].q = c[a].q || []).push(arguments);
+          };
+        t = l.createElement(r);
+        t.async = 1;
+        t.src = "https://www.clarity.ms/tag/" + i;
+        y = l.getElementsByTagName(r)[0];
+        y.parentNode.insertBefore(t, y);
+      })(window, document, "clarity", "script", "hszw7cah2o");
+    </script>
+  </head>
+  <body>
+    <slot />
+    <style is:global>
+      html {
+        font-family: "Noto Sans TC", sans-serif;
+        background-color: #26272b;
+        overflow-x: hidden;
+        scroll-behavior: smooth;
+      }
+    </style>
+  </body>
+</html>

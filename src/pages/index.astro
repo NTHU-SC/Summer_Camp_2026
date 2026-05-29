@@ -1,0 +1,44 @@
+---
+import Layout from "../layouts/Layout.astro";
+import { Hero_forum } from "../components/Hero_forum.jsx";
+// import { Hero_fb } from "../components/Hero_fb.jsx";
+// import { GOGO } from "../components/GOGO.jsx";
+import { Navbar } from "../components/Navbar.jsx";
+import { Features1 } from "../components/Features1.jsx";
+import { Features2 } from "../components/Features2.jsx";
+import { Testimonials } from "../components/Testimonials.jsx";
+import { Timetable } from "../components/Timetable.jsx";
+import { Pricing } from "../components/Pricing.jsx";
+import { FAQ } from "../components/FAQ.jsx";
+import { Brands } from "../components/Brands.jsx";
+import { Divider } from "../components/Divider";
+import { Footer } from "../components/Footer.jsx";
+import { ScrollUpButton } from "../components/ScrollUpButton";
+import { CoC } from "../components/CoC"
+import { YouTube } from "../components/YouTube";
+import "../styles/Theme.css";
+import "../styles/Diagonals.css";
+
+---
+
+<Layout title="2026 HPC x AI Summer Camp">
+  <Navbar client:load />
+  <Hero_forum client:load />
+  <!-- <Hero_fb client:load /> -->
+  <!-- <GOGO client:load /> -->
+  <Features1 client:load />
+  <Divider client:load/>
+  <Features2 client:load />
+  <Testimonials client:load />
+  <YouTube client:load />
+  <Timetable client:load />
+  <Pricing client:load />
+  <Brands client:load />
+  <FAQ client:load />
+  <CoC client:load />
+  <Footer client:load />
+  <ScrollUpButton client:load />
+</Layout>
+
+
+

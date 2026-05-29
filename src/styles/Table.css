@@ -1,0 +1,59 @@
+.GeneratedTable {
+  width: 100%;
+  background-color: #ffffff07;
+  border-collapse: collapse;
+  border-width: 2px;
+  border-color: #68624b;
+  border-style: solid;
+  color: #ffffff;
+  font-size: 1rem; /* 基本字體大小 */
+}
+
+.GeneratedTable td,
+.GeneratedTable th {
+  border-width: 2px;
+  border-color: #feeda1ab;
+  border-style: solid;
+  padding: 3px;
+}
+
+.GeneratedTable thead {
+  color: #1c1a14;
+  background-color: #ffcc00;
+}
+
+/* 中型屏幕 */
+@media (max-width: 1200px) {
+  .GeneratedTable {
+    font-size: 0.9rem; /* 字體縮小 */
+  }
+
+  .GeneratedTable td,
+  .GeneratedTable th {
+    padding: 2px; /* 減小內邊距 */
+  }
+}
+
+/* 小型屏幕 */
+@media (max-width: 768px) {
+  .GeneratedTable {
+    font-size: 0.8rem; /* 字體進一步縮小 */
+  }
+
+  .GeneratedTable td,
+  .GeneratedTable th {
+    padding: 1px; /* 進一步減小內邊距 */
+  }
+}
+
+/* 非常小的屏幕 */
+@media (max-width: 480px) {
+  .GeneratedTable {
+    font-size: 0.7rem; /* 字體再縮小 */
+  }
+
+  .GeneratedTable td,
+  .GeneratedTable th {
+    padding: 0.5px; /* 最小內邊距 */
+  }
+}
