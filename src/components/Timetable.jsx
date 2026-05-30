@@ -132,7 +132,7 @@ const MyTable = () => {
         <tr>
           <td>17:00~18:00</td>
           <td colSpan="3">自由時間 / 交流</td>
-          <td rowSpan="3" style={{color: '#aaa'}>賦歸</td>
+          <td rowSpan="3" style={{color: '#aaa'}}>賦歸</td>
         </tr>
         <tr>
           <td>18:00~19:30</td>
