@@ -91,7 +91,8 @@ const MyTable = () => {
             介紹 Robotic 和 Physical AI 的應用
           </td>
           <td rowSpan="2">
-            業界專家專題演講 II
+            業界專家專題演講 II<br/>
+            高校能計算趨勢談
           </td>
           <td rowSpan="3">
             進階 GPU 平行程式教學
@@ -126,25 +127,24 @@ const MyTable = () => {
           <td>MPI 平行程式教學</td>
           <td>openMP 平行程式簡介</td>
           <td>校園參訪活動<br/>(機房、圖書館參觀)</td>
-          <td>作業檢討</td>
+          <td>作業檢討<br/>頒發證書</td>
         </tr>
         <tr>
           <td>17:00~18:00</td>
           <td colSpan="3">自由時間 / 交流</td>
-          <td>頒發證書<br/>(活動照相)</td>
+          <td  rowSpan="3" style={{color: '#aaa'}>賦歸</td>
         </tr>
         <tr>
           <td>18:00~19:30</td>
           <td>Pizza 相見歡</td>
           <td>系所介紹 (限高中生)</td>
           <td>晚餐 (自理)</td>
-          <td rowSpan="2" style={{color: '#aaa'}}>賦歸</td>
         </tr>
         <tr>
           <td>19:30~21:30</td>
-          <td>超級電腦簡介與實操<br/>(Slurm, HPL)</td>
-          <td>上機練習<br/>(Sobel)</td>
-          <td>上機練習<br/>(AI & HPC App)</td>
+          <td>超級電腦簡介與實操</td>
+          <td>上機練習<br/>(GPU平行程式)</td>
+          <td>上機練習<br/>(AI & HPC應用程式優化)</td>
         </tr>
       </tbody>
     </table>
