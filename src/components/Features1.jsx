@@ -23,7 +23,7 @@ export const Features1 = () => {
                 專注技術的夏令營
               </h2>
               <p className="mb-5 text-customGrayText leading-loose">
-              參加我們的夏令營，你將有機會操作國內領先的超級電腦，學習最前沿的平行程式設計，並掌握效能分析的核心技術。無論你是高中生還是大學生，我們的教學模式會根據你的背景和能力安排彈性學習方式，讓你獲得最好的學習效果。在這裡，你將參與超過 20 小時 of 專業教學課程，手把手實操練習，並參加具挑戰性的團隊黑客松競賽。
+              參加我們的夏令營，你將有機會操作國內領先的超級電腦，學習最前沿的平行程式設計，並掌握效能分析的核心技術。無論你是高中生還是大學生，我們的教學模式會根據你的背景和能力安排彈性學習方式，讓你獲得最好的學習效果。在這裡，你將參與超過 20 小時的專業教學課程、手把手實操練習、挑戰自己的極限、拓展自己的視野。
               </p>
               <p className="mb-5 text-customGrayText leading-loose">
               立即行動，讓你在 AI 時代不落人後！
@@ -31,19 +31,19 @@ export const Features1 = () => {
               <ul className="mb-6 text-white">
                 <li className="mb-4 flex">
                   <CheckArrowIcon />
-                  <span>專業課程：學習 AI 與操作超級電腦</span>
+                  <span>專業課程：學習高效能計算與AI</span>
                 </li>
                 <li className="mb-4 flex">
                   <CheckArrowIcon />
-                  <span>經驗分享：超算冠軍團隊分享座談會</span>
+                  <span>經驗分享：超算冠軍團隊分享座談</span>
                 </li>
                 <li className="mb-4 flex">
                   <CheckArrowIcon />
-                  <span>實地踏查：參訪國網中心與清大機房</span>
+                  <span>實地踏查：參訪清大校園與機房認識資工系</span>
                 </li>
                 <li className="mb-4 flex">
                   <CheckArrowIcon />
-                  <span>親自實踐：參與黑客松親自著手優化</span>
+                  <span>親自實踐：操作超級電腦與撰寫GPU平行程式</span>
                 </li>
               </ul>
             </div>
