@@ -132,7 +132,7 @@ const MyTable = () => {
         <tr>
           <td>17:00~18:00</td>
           <td colSpan="3">自由時間 / 交流</td>
-          <td  rowSpan="3" style={{color: '#aaa'}>賦歸</td>
+          <td rowSpan="3" style={{color: '#aaa'}>賦歸</td>
         </tr>
         <tr>
           <td>18:00~19:30</td>
@@ -144,7 +144,7 @@ const MyTable = () => {
           <td>19:30~21:30</td>
           <td>超級電腦簡介與實操</td>
           <td>上機練習<br/>(GPU平行程式)</td>
-          <td>上機練習<br/>(AI & HPC應用程式優化)</td>
+          <td>上機練習<br/>(AI和HPC應用程式優化)</td>
         </tr>
       </tbody>
     </table>
