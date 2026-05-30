@@ -7,30 +7,27 @@ import { CheckArrowIcon } from "../assets/icons/CheckArrowIcon";
 const pricingData_early = [
   "精彩課程",
   "助教指導",
-  "餐會",
   "旅平險",
   "紀念品",
-  "參加證書（國網中心核發）",
-  "提前入宿住宿 (五晚)",
+  "參加證書",
+  "提前入宿住宿 (四晚)",
 ];
 
 const pricingData_hotel = [
   "精彩課程",
   "助教指導",
-  "餐會",
   "旅平險",
   "紀念品",
-  "參加證書（國網中心核發）",
-  "營隊住宿 (四晚)",
+  "參加證書",
+  "營隊住宿 (三晚)",
 ];
 
 const pricingData_no_hotel = [
   "精彩課程",
   "助教指導",
-  "餐會",
   "旅平險",
   "紀念品",
-  "參加證書（國網中心核發）",
+  "參加證書",
 ];
 
 export const Pricing = () => {
@@ -61,8 +58,8 @@ export const Pricing = () => {
                 報名資訊
               </h2>
               <p className="mb-6 text-customGrayText" style={{ textAlign: "left", paddingLeft: "3vw" ,fontSize: "1.2rem" }}>
-              {/* 優惠：獲清大教授推薦的大四/碩博士生，享2000元報名費減免
-              <br /> */}
+              優惠：獲清大教授推薦的大四或碩博士生，享2500元報名費減免
+              <br /> 
               招生對象：限學生（國中以上），具備基礎程式能力（C 語言）
               <br />
               授課地點：清華大學
@@ -91,6 +88,7 @@ export const Pricing = () => {
             </div>
             <div className="flex flex-wrap lg:flex-nowrap items-stretch mt-20 justify-center gap-4">
               {/* 安心追夢 */}
+              {/*
               <div className="w-[300px] sm:w-[340px] lg:w-1/4 flex">
                 <div className="p-6 bg-customDarkBg3 rounded-3xl flex flex-col justify-between w-full">
                   <div>
@@ -114,7 +112,7 @@ export const Pricing = () => {
                   </ul>
                 </div>
               </div>
-
+            */}
               {/* 不含住宿 */}
               <div className="w-[300px] sm:w-[340px] lg:w-1/4 flex">
                 <div className="p-6 bg-customDarkBg3 rounded-3xl flex flex-col justify-between w-full">
@@ -140,7 +138,7 @@ export const Pricing = () => {
                 </div>
               </div>
 
-              {/* 含住宿 (四晚) */}
+              {/* 含住宿 (三晚) */}
               <div className="w-[300px] sm:w-[340px] lg:w-1/4 flex">
                 <div className="p-6 bg-customDarkBg3 rounded-3xl flex flex-col justify-between w-full border border-customPrimary">
                   <div>
@@ -154,7 +152,7 @@ export const Pricing = () => {
                       $7500
                     </div>
                     <p className="mt-4 mb-6 text-gray-500 leading-relaxed text-left text-sm">
-                      營隊提供四晚旅館住宿，養精蓄銳後為課程做好準備（來回交通需自理）
+                      營隊提供三晚住宿校園住宿，體驗校園生活
                     </p>
                   </div>
                   <ul className="mb-6 text-white text-sm">
@@ -168,7 +166,7 @@ export const Pricing = () => {
                 </div>
               </div>
 
-              {/* 提前入宿 (五晚) */}
+              {/* 提前入宿 (四晚) */}
               <div className="w-[300px] sm:w-[340px] lg:w-1/4 flex">
                 <div className="p-6 bg-customDarkBg3 rounded-3xl flex flex-col justify-between w-full">
                   <div>
@@ -179,7 +177,7 @@ export const Pricing = () => {
                       $8000
                     </div>
                     <p className="mt-4 mb-6 text-gray-500 leading-relaxed text-left text-sm">
-                      營隊提供五晚旅館住宿，適合需要提前一天抵達新竹準備的學員
+                      營隊提供晚四晚校園住宿，適合需要提前一天抵達新竹準備的學員
                     </p>
                   </div>
                   <ul className="mb-6 text-white text-sm">
