@@ -41,7 +41,7 @@ export const Hero = () => {
                   <a
                     className="custom-button-colored w-48 sm:w-36 h-10 mr-0 sm:mr-2 lg:mr-4" href="https://www.facebook.com/groups/300519702549029/" target="_blank"
                   >
-                    {/* 5/28 報名開始，請先加入FB社團 */}
+                    {/* 6/1 報名開始，請先加入FB社團 */}
                     {/* 報名尚未開始 */}
                   </a>
                 </div>
