@@ -40,20 +40,20 @@ export const Features2 = () => (
               我們專業的師資
             </h2>
             <p className="mb-12 text-customGrayText leading-loose">
-              營隊由國家高速網路與計算中心與國立清華大學合辦，你將獲得一流師資的指導，包括清華大學教授、叢集電腦競賽世界冠軍成員及業界專家。
+              營隊由國立清華大學資工系的教授帶領超算團隊的成員一同辦理，傳承多年的競賽與實務經驗，並邀請業界一流專家介紹最新的趨勢與技術。
             </p>
             <ul className="mb-6 text-white">
               <li className="mb-4 flex">
                 <CheckArrowIcon />
-                <span>國網中心與國立清華大學共同合辦</span>
+                <span>國立清華大學資工系周志遠特聘教授親自授課主辦</span>
               </li>
               <li className="mb-4 flex">
                 <CheckArrowIcon />
-                <span>清大資工名師周志遠教授親自授課</span>
+                <span>邀請Nvidia, AMD等業界專家演講</span>
               </li>
               <li className="mb-4 flex">
                 <CheckArrowIcon />
-                <span>台灣最專業學生超算成員擔任課程助教</span>
+                <span>競賽冠軍學生成員擔任專業課程助教</span>
               </li>
             </ul>
           </div>
