@@ -58,7 +58,7 @@ export const Pricing = () => {
                 報名資訊
               </h2>
               <p className="mb-6 text-customGrayText" style={{ textAlign: "left", paddingLeft: "3vw" ,fontSize: "1.2rem" }}>
-              優惠：獲清大或雲端學會教授推薦的大四或碩博士生，享2000元減免優惠
+              優惠：獲清大或雲端學會教授推薦的大四或碩博士生享2000元減免優惠
               <br /> 
               招生對象：限學生（國中以上），具備基礎程式能力（C 語言）
               <br />
