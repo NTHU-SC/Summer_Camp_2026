@@ -39,7 +39,7 @@ export const Pricing = () => {
   };
 
   const handleButtonClick = () => {
-    window.open('https://forms.gle/gqaH4VSKE2vjHkFQ9', '_blank');
+    window.open('https://forms.gle/v8FhqDpmjmbz2wVXA', '_blank');
   };
 
   return (
@@ -204,9 +204,8 @@ export const Pricing = () => {
                 style={{ opacity: 0.6 }}
               >
                 報名準備中
-              </div>
-              */}
-            </div>
+              </div>  
+            </div> */}
           </div>
         </motion.div>
       </div>
