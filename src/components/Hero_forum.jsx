@@ -52,7 +52,7 @@ export const Hero_forum = () => {
                   >
                     報名準備中
                   </div>
-                </div>*/
+                </div> */}
               </motion.div>
 
             </div>
