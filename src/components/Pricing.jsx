@@ -191,6 +191,13 @@ export const Pricing = () => {
                 </div>
               </div>
             </div>
+            <div
+                className="inline-block text-center py-2 px-4 w-1/2 rounded-xl rounded-t-xl custom-button-colored font-bold leading-loose mt-16"
+                onClick={() => handleButtonClick()}
+              >
+                立刻報名！
+             </div>
+            {/* 
             <div className="flex justify-center mt-12">
               <div
                 className="inline-block text-center py-3 px-8 rounded-xl custom-button-colored font-bold leading-loose cursor-default shadow-lg select-none"
@@ -198,6 +205,7 @@ export const Pricing = () => {
               >
                 報名準備中
               </div>
+              */}
             </div>
           </div>
         </motion.div>
