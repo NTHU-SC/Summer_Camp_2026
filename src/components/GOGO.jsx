@@ -19,8 +19,8 @@ export const GOGO = () => {
           animate={{ opacity: 1, y: 0 }}
           transition={{ duration: 0.5, delay: 0.15 }}
         >
-          <div className="flex flex-col gap-2 sm:flex-row mt-14 mb-2 sm:mb-6 justify-center">
-            {/*<div
+          {/*<div className="flex flex-col gap-2 sm:flex-row mt-14 mb-2 sm:mb-6 justify-center">
+            <div
               className="custom-button-colored w-48 sm:w-36 h-10 mr-0 sm:mr-2 lg:mr-4"
               onClick={() => handleButtonClick()}
             >
