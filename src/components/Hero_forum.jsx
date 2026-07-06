@@ -37,22 +37,22 @@ export const Hero_forum = () => {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 0.5, delay: 0.15 }}
               >
-                  <div className="flex flex-col gap-2 sm:flex-row mt-14 mb-2 sm:mb-6 justify-center">
+                  /*<div className="flex flex-col gap-2 sm:flex-row mt-14 mb-2 sm:mb-6 justify-center">
                   <a
                     className="custom-button-colored w-48 sm:w-36 h-10 mr-0 sm:mr-2 lg:mr-4" href="https://forms.gle/Ggp6sSd64QJdKM8o8" target="_blank"
                   >
                     立刻報名！
                   </a>
-                  </div>
-                {/*
+                  </div>*/
+                {
                 <div className="flex flex-col gap-2 sm:flex-row mt-14 mb-2 sm:mb-6 justify-center">
                   <div
                     className="custom-button-colored w-48 sm:w-36 h-10 mr-0 sm:mr-2 lg:mr-4 cursor-default flex items-center justify-center select-none"
                     style={{ opacity: 0.6 }}
                   >
-                    報名準備中
+                    報名已截止
                   </div>
-                </div> */}
+                </div> }
               </motion.div>
 
             </div>
