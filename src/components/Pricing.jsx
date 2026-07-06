@@ -203,7 +203,7 @@ export const Pricing = () => {
                 className="inline-block text-center py-3 px-8 rounded-xl custom-button-colored font-bold leading-loose cursor-default shadow-lg select-none"
                 style={{ opacity: 0.6 }}
               >
-                報名準備中
+                報名已截止
               </div>  }
             </div> 
           </div>
