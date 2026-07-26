@@ -80,23 +80,11 @@ const MyTable = () => {
       </thead>
       <tbody>
         <tr>
-          <td>活動地點</td>
-          <td colSpan="4">綜四224</td>
-        </tr>
-        <tr>
           <td>9:00~9:30</td>
           <td>報到</td>
-          <td rowSpan="2">
-            業界專家專題演講 I<br/>
-            介紹 Robotic 和 Physical AI 的應用
-          </td>
-          <td rowSpan="2">
-            業界專家專題演講 II<br/>
-            高校能計算趨勢談
-          </td>
-          <td rowSpan="3">
-            進階 GPU 平行程式教學
-          </td>
+          <td rowSpan="2">MPI平行程式教學</td>
+          <td rowSpan="2">業界專家專題演講 II</td>
+          <td rowSpan="2">業界專家專題演講 I<br/>介紹Robatic和PhysicalAI的應用</td>
         </tr>
         <tr>
           <td>9:30~10:30</td>
@@ -104,47 +92,57 @@ const MyTable = () => {
         </tr>
         <tr>
           <td>10:30~12:00</td>
-          <td>HPCAI 簡介</td>
-          <td>基礎 GPU 平行程式教學</td>
+          <td>HPCAI簡介</td>
+          <td>MPI 上機練習<br/>(Pi, Mergesort)</td>
           <td>科學計算應用簡介</td>
+          <td>上機練習<br/>(綜合)</td>
         </tr>
         <tr>
           <td>12:00~13:30</td>
-          <td>午餐 (自理)<br/>(第一天校園巡禮合照)</td>
-          <td>午餐 (自理)</td>
-          <td>午餐 (自理)</td>
-          <td>午餐 (自理)</td>
+          <td colSpan="4">午餐 (自理) (第一天校園巡禮合照)</td>
         </tr>
         <tr>
-          <td>13:30~15:30</td>
+          <td>13:30~14:30</td>
           <td>平行計算簡介</td>
-          <td>基礎 GPU 平行程式教學</td>
-          <td>人工智慧應用簡介</td>
-          <td>學生叢集競賽座談會</td>
+          <td rowSpan="2">基礎GPU平行程式教學</td>
+          <td>科學計算上機練習</td>
+          <td>學生叢集競賽座談會<br/>作業檢討</td>
         </tr>
         <tr>
-          <td>15:30~17:00</td>
-          <td>MPI 平行程式教學</td>
-          <td>openMP 平行程式簡介</td>
-          <td>校園參訪活動<br/>(機房、圖書館參觀)</td>
-          <td>作業檢討<br/>頒發證書</td>
+          <td>14:30~15:30</td>
+          <td></td>
+          <td>人工智慧應用簡介</td>
+          <td>頒發證書<br/>(活動照相)</td>
+        </tr>
+        <tr>
+          <td>15:30~16:30</td>
+          <td>圖書館參觀</td>
+          <td></td>
+          <td></td>
+          <td rowSpan="5" style={{color: '#aaa'}}>賦歸</td>
+        </tr>
+        <tr>
+          <td>16:30~17:00</td>
+          <td>Pizza 相見歡</td>
+          <td rowSpan="2">openMP平行程式簡介</td>
+          <td></td>
         </tr>
         <tr>
           <td>17:00~18:00</td>
-          <td colSpan="3">自由時間 / 交流</td>
-          <td rowSpan="3" style={{color: '#aaa'}}>賦歸</td>
+          <td></td>
+          <td>晚餐(自理)</td>
         </tr>
         <tr>
           <td>18:00~19:30</td>
-          <td>Pizza 相見歡</td>
-          <td>系所介紹 (限高中生)</td>
-          <td>晚餐 (自理)</td>
+          <td>超級電腦簡介與實操<br/>(Slurm)</td>
+          <td>系所介紹<br/>(限高中生)</td>
+          <td>AI上機練習</td>
         </tr>
         <tr>
           <td>19:30~21:30</td>
-          <td>超級電腦簡介與實操</td>
-          <td>上機練習<br/>(GPU平行程式)</td>
-          <td>上機練習<br/>(AI和HPC應用程式優化)</td>
+          <td>程式與系統效能分析<br/>上機練習(HPL)</td>
+          <td>GPU-OpenMP/Hip<br/>上機練習 (Sobel)</td>
+          <td></td>
         </tr>
       </tbody>
     </table>

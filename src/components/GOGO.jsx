@@ -36,7 +36,7 @@ export const GOGO = () => {
               onClick={() => setIsModalOpen(true)}
             >
               Live demo
-            </div> }
+            </div> */}
           </div>
         </motion.div>
 
