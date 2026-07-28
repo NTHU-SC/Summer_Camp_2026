@@ -104,14 +104,14 @@ const MyTable = () => {
         <tr>
           <td>13:30~14:30</td>
           <td>平行計算簡介</td>
-          <td rowSpan="2">基礎GPU平行程式教學</td>
+          <td rowSpan="3">基礎GPU平行程式教學</td>
           <td>科學計算上機練習</td>
           <td>學生叢集競賽座談會<br/>作業檢討</td>
         </tr>
         <tr>
           <td>14:30~15:30</td>
           <td></td>
-          <td>人工智慧應用簡介</td>
+          <td rowSpa="4">人工智慧應用簡介</td>
           <td>頒發證書<br/>(活動照相)</td>
         </tr>
         <tr>
@@ -123,7 +123,7 @@ const MyTable = () => {
         </tr>
         <tr>
           <td>16:30~17:00</td>
-          <td>Pizza 相見歡</td>
+          <td rowSpan="2">Pizza 相見歡</td>
           <td rowSpan="2">openMP平行程式簡介</td>
           <td></td>
         </tr>
