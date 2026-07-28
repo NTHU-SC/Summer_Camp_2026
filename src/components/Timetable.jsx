@@ -117,6 +117,7 @@ const MyTable = () => {
         <tr>
           <td>15:30~16:30</td>
           <td>圖書館參觀</td>
+          <td></td>
           <td rowSpan="4" style={{color: '#aaa'}}>賦歸</td>
         </tr>
         <tr>
