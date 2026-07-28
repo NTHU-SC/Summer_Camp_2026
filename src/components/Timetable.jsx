@@ -110,7 +110,6 @@ const MyTable = () => {
         </tr>
         <tr>
           <td>14:30~15:30</td>
-          <td></td>
           <td rowSpan="2">人工智慧應用簡介</td>
           <td>頒發證書<br/>(活動照相)</td>
         </tr>
