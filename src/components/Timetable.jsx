@@ -111,7 +111,7 @@ const MyTable = () => {
         <tr>
           <td>14:30~15:30</td>
           <td></td>
-          <td rowSpa="4">人工智慧應用簡介</td>
+          <td rowSpa="2">人工智慧應用簡介</td>
           <td>頒發證書<br/>(活動照相)</td>
         </tr>
         <tr>
@@ -119,18 +119,14 @@ const MyTable = () => {
           <td>圖書館參觀</td>
           <td></td>
           <td></td>
-          <td rowSpan="5" style={{color: '#aaa'}}>賦歸</td>
+          <td rowSpan="4" style={{color: '#aaa'}}>賦歸</td>
         </tr>
         <tr>
-          <td>16:30~17:00</td>
-          <td rowSpan="2">Pizza 相見歡</td>
-          <td rowSpan="2">openMP平行程式簡介</td>
-          <td></td>
-        </tr>
-        <tr>
-          <td>17:00~18:00</td>
-          <td></td>
+          <td>16:30~18:00</td>
+          <td>Pizza 相見歡</td>
+          <td>openMP平行程式簡介</td>
           <td>晚餐(自理)</td>
+          <td></td>
         </tr>
         <tr>
           <td>18:00~19:30</td>
