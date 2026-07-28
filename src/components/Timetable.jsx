@@ -103,7 +103,7 @@ const MyTable = () => {
         </tr>
         <tr>
           <td>13:30~14:30</td>
-          <td>平行計算簡介</td>
+          <td rowSpan="2">平行計算簡介</td>
           <td rowSpan="3">基礎GPU平行程式教學</td>
           <td>科學計算上機練習</td>
           <td>學生叢集競賽座談會<br/>作業檢討</td>
@@ -111,14 +111,12 @@ const MyTable = () => {
         <tr>
           <td>14:30~15:30</td>
           <td></td>
-          <td rowSpa="2">人工智慧應用簡介</td>
+          <td rowSpan="2">人工智慧應用簡介</td>
           <td>頒發證書<br/>(活動照相)</td>
         </tr>
         <tr>
           <td>15:30~16:30</td>
           <td>圖書館參觀</td>
-          <td></td>
-          <td></td>
           <td rowSpan="4" style={{color: '#aaa'}}>賦歸</td>
         </tr>
         <tr>
