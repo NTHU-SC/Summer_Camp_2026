@@ -123,7 +123,6 @@ const MyTable = () => {
           <td>Pizza 相見歡</td>
           <td>openMP平行程式簡介</td>
           <td>晚餐(自理)</td>
-          <td></td>
         </tr>
         <tr>
           <td>18:00~19:30</td>
